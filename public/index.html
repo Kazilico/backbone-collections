@@ -12,6 +12,14 @@
   <body>
     
     <script src="cupcakes.js"></script>
-
+    <script type"x-handlebars-template" id="cupcake-template">
+      <div class="cupcake" data-id="{{ id }}">
+        <button data-id="{{ id }}" class="delete-button">Delete</button>
+        <button data-id="{{ id }}" class="edit-button">Remove</button>
+        <button data-id="{{ id }}" class="add-button">Add</button>
+        <div class="title">{{ type }}</div>
+        <div class="abv">({{ abv }}%)</div>
+      </div>
+    </script>
   </body>
 </html>
